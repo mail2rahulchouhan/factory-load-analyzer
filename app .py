@@ -1,3 +1,4 @@
+import streamlit as st
 @st.cache_data
 def load_data():
     df = pd.read_excel('factory_maintenance.xlsx', sheet_name='Sheet1')
